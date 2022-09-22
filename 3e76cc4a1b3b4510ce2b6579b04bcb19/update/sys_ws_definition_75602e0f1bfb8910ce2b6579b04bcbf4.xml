@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition">
+    <sys_ws_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_uri>/api/x_snc_google_map/address</base_uri>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_version>No active default version</default_version>
+        <doc_link/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <is_versioned>false</is_versioned>
+        <name>Address</name>
+        <namespace>x_snc_google_map</namespace>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <service_id>address</service_id>
+        <short_description/>
+        <sys_class_name>sys_ws_definition</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2022-06-05 01:02:17</sys_created_on>
+        <sys_id>75602e0f1bfb8910ce2b6579b04bcbf4</sys_id>
+        <sys_name>Address</sys_name>
+        <sys_package display_value="Google Map API" source="x_snc_google_map">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Map API">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_scope>
+        <sys_update_name>sys_ws_definition_75602e0f1bfb8910ce2b6579b04bcbf4</sys_update_name>
+    </sys_ws_definition>
+</record_update>

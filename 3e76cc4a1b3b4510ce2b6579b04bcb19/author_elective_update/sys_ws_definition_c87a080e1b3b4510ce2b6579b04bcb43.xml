@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition">
+    <sys_ws_definition action="DELETE">
+        <active>true</active>
+        <base_uri>/api/x_snc_google_map/google_map_api</base_uri>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_version>No active default version</default_version>
+        <doc_link/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <is_versioned>false</is_versioned>
+        <name>Google Map API</name>
+        <namespace>x_snc_google_map</namespace>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <service_id>google_map_api</service_id>
+        <short_description/>
+        <sys_class_name>sys_ws_definition</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2022-06-01 12:49:30</sys_created_on>
+        <sys_id>c87a080e1b3b4510ce2b6579b04bcb43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Google Map API</sys_name>
+        <sys_package display_value="Google Map API" source="x_snc_google_map">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Map API">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_scope>
+        <sys_update_name>sys_ws_definition_c87a080e1b3b4510ce2b6579b04bcb43</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2022-06-01 12:49:30</sys_updated_on>
+    </sys_ws_definition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Google Map API">3e76cc4a1b3b4510ce2b6579b04bcb19</application>
+        <file_path/>
+        <instance_id>9e5e7297dbf290d89a4dcac5059619d0</instance_id>
+        <instance_name>appengine4gov</instance_name>
+        <name>sys_ws_definition_c87a080e1b3b4510ce2b6579b04bcb43</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition"><sys_ws_definition action="INSERT_OR_UPDATE"><active>true</active><base_uri>/api/x_snc_google_map/google_map_api</base_uri><consumes>application/json,application/xml,text/xml</consumes><consumes_customized>false</consumes_customized><default_version>No active default version</default_version><doc_link/><enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl><is_versioned>false</is_versioned><name>Google Map API</name><namespace>x_snc_google_map</namespace><produces>application/json,application/xml,text/xml</produces><produces_customized>false</produces_customized><service_id>google_map_api</service_id><short_description/><sys_class_name>sys_ws_definition</sys_class_name><sys_created_by>Marc.Mouries</sys_created_by><sys_created_on>2022-06-01 12:49:30</sys_created_on><sys_id>c87a080e1b3b4510ce2b6579b04bcb43</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Google Map API</sys_name><sys_package display_value="Google Map API" source="x_snc_google_map">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_package><sys_policy/><sys_scope display_value="Google Map API">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_scope><sys_update_name>sys_ws_definition_c87a080e1b3b4510ce2b6579b04bcb43</sys_update_name><sys_updated_by>Marc.Mouries</sys_updated_by><sys_updated_on>2022-06-01 12:49:30</sys_updated_on></sys_ws_definition></record_update>]]></payload>
+        <payload_hash>1845578667</payload_hash>
+        <record_name>Google Map API</record_name>
+        <reverted_from/>
+        <source>3276cc4a1b3b4510ce2b6579b04bcb1c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2022-06-01 12:49:31</sys_created_on>
+        <sys_id>b32c18c21bbb4510ce2b6579b04bcb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1811f5063da0000001</sys_recorded_at>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2022-06-01 12:49:31</sys_updated_on>
+        <type>Scripted REST API</type>
+        <update_guid>7b2c18c24fbb4510c27cb6794b49bf68</update_guid>
+        <update_guid_history>7b2c18c24fbb4510c27cb6794b49bf68:1845578667</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2022-06-05 14:49:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_ws_definition">sys_ws_definition</sys_db_object>
+        <sys_id>0fa409c765364e1091d87ff5e8c22440</sys_id>
+        <sys_metadata>c87a080e1b3b4510ce2b6579b04bcb43</sys_metadata>
+        <sys_name>Google Map API</sys_name>
+        <sys_package display_value="Google Map API" source="x_snc_google_map">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Google Map API">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_scope>
+        <sys_scope_delete display_value="">13d4a2ec39d2498d93ab1f53aacc43e1</sys_scope_delete>
+        <sys_update_name>sys_ws_definition_c87a080e1b3b4510ce2b6579b04bcb43</sys_update_name>
+        <sys_update_version display_value="sys_ws_definition_c87a080e1b3b4510ce2b6579b04bcb43">b32c18c21bbb4510ce2b6579b04bcb69</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
