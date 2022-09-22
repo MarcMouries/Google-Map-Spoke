@@ -26,7 +26,7 @@
         });
 		return result_list;
     } catch (ex) {
-        gs.error('Error getting slack team info: ' + ex.getMessage());
+        gs.error('Error getting google map info: ' + ex.getMessage());
     }
 })(request, response);]]></operation_script>
         <operation_uri>/api/x_snc_google_map/address/autocomplete/{input}/{API_KEY}</operation_uri>
