@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="DELETE">
+        <active>true</active>
+        <description/>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent/>
+        <roles/>
+        <sc_catalog/>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:34:06</sys_created_on>
+        <sys_id>82cd0994971ed51081dd33271153afaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Google API Integration</sys_name>
+        <sys_package display_value="Google Map API" source="x_snc_google_map">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Map API">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_scope>
+        <sys_update_name>sc_category_82cd0994971ed51081dd33271153afaf</sys_update_name>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 12:34:06</sys_updated_on>
+        <title>Google API Integration</title>
+    </sc_category>
+    <sys_translated_text action="DELETE" query="documentkey=82cd0994971ed51081dd33271153afaf"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Google Map API">3e76cc4a1b3b4510ce2b6579b04bcb19</application>
+        <file_path/>
+        <instance_id>452b90e0db6919908aea21c40596198f</instance_id>
+        <instance_name>deamosdemo</instance_name>
+        <name>sc_category_82cd0994971ed51081dd33271153afaf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog/><sys_class_name>sc_category</sys_class_name><sys_created_by>Michael.Slabodnick</sys_created_by><sys_created_on>2022-09-28 12:34:06</sys_created_on><sys_id>82cd0994971ed51081dd33271153afaf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Google API Integration</sys_name><sys_package display_value="Google Map API" source="x_snc_google_map">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_package><sys_policy/><sys_scope display_value="Google Map API">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_scope><sys_update_name>sc_category_82cd0994971ed51081dd33271153afaf</sys_update_name><sys_updated_by>Michael.Slabodnick</sys_updated_by><sys_updated_on>2022-09-28 12:34:06</sys_updated_on><title>Google API Integration</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=82cd0994971ed51081dd33271153afaf"/></record_update>]]></payload>
+        <payload_hash>-1808626107</payload_hash>
+        <record_name>Google API Integration</record_name>
+        <reverted_from/>
+        <source>f0278dbe470e911024e32782846d4312</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:34:06</sys_created_on>
+        <sys_id>56dd0994971ed51081dd33271153afbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18384170be00000001</sys_recorded_at>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 12:34:06</sys_updated_on>
+        <type>Category</type>
+        <update_guid>5edd0994221ed5105a476534d04ff4bc</update_guid>
+        <update_guid_history>5edd0994221ed5105a476534d04ff4bc:-1808626107</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Google API Integration">6ded8994971ed51081dd33271153afd3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:34:19</sys_created_on>
+        <sys_db_object display_value="" name="sc_category">sc_category</sys_db_object>
+        <sys_id>84d297c0867b4d908dd9c8247fb232c4</sys_id>
+        <sys_metadata>82cd0994971ed51081dd33271153afaf</sys_metadata>
+        <sys_name>Google API Integration</sys_name>
+        <sys_package display_value="Google Map API" source="x_snc_google_map">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Google Map API">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_scope>
+        <sys_scope_delete display_value="">13d4a2ec39d2498d93ab1f53aacc43e1</sys_scope_delete>
+        <sys_update_name>sc_category_82cd0994971ed51081dd33271153afaf</sys_update_name>
+        <sys_update_version display_value="sc_category_82cd0994971ed51081dd33271153afaf">56dd0994971ed51081dd33271153afbd</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

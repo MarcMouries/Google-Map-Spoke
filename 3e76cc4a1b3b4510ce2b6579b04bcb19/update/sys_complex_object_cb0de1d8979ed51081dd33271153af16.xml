@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD0b0de1d89b9ed5101870c34c576b5016</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>3e76cc4a1b3b4510ce2b6579b04bcb19</scope_name>
+        <serialized_content>{"FlowDesigner:FD0b0de1d89b9ed5101870c34c576b5016":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD0b0de1d89b9ed5101870c34c576b5016.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"max_rows\":null,\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Address Predictions\",\"mandatory\":\"false\",\"child_name\":\"predictions\",\"uiUniqueId\":\"6402181c-e29d-42a8-8064-432aa122f4ea\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD0b0de1d89b9ed5101870c34c576b5016\",\"child_label\":\"Predictions\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"91822a89-fc33-47a8-818f-823521446163\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 14:50:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cb0de1d8979ed51081dd33271153af16</sys_id>
+        <sys_name>FD0b0de1d89b9ed5101870c34c576b5016</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Google Map API" source="x_snc_google_map">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Map API">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_scope>
+        <sys_update_name>sys_complex_object_cb0de1d8979ed51081dd33271153af16</sys_update_name>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

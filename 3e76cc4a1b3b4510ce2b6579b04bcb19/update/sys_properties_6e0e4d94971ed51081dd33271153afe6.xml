@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>API Key used for Google Map Integrations</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_snc_google_map.api.key</name>
+        <read_roles/>
+        <suffix>api.key</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:35:09</sys_created_on>
+        <sys_id>6e0e4d94971ed51081dd33271153afe6</sys_id>
+        <sys_name>x_snc_google_map.api.key</sys_name>
+        <sys_package display_value="Google Map API" source="x_snc_google_map">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Map API">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_scope>
+        <sys_update_name>sys_properties_6e0e4d94971ed51081dd33271153afe6</sys_update_name>
+        <type>string</type>
+        <value>AIzaSyD15nTUC915xm1n-lhxPU5-TA2bMKJdU30</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=6e0e4d94971ed51081dd33271153afe6"/>
+</record_update>

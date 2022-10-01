@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>Google API Integration</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:34:42</sys_created_on>
+        <sys_id>49fd0d94971ed51081dd33271153af2d</sys_id>
+        <sys_name>Google API Integration</sys_name>
+        <sys_package display_value="Google Map API" source="x_snc_google_map">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Map API">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_scope>
+        <sys_update_name>sys_properties_category_49fd0d94971ed51081dd33271153af2d</sys_update_name>
+        <title/>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=49fd0d94971ed51081dd33271153af2d"/>
+</record_update>

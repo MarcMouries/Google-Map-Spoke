@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="INSERT_OR_UPDATE">
+        <configuration_template/>
+        <connection_type>http_connection</connection_type>
+        <id>x_snc_google_map.Google_Maps_API</id>
+        <multiple_connections>false</multiple_connections>
+        <name>Google Maps API</name>
+        <parent/>
+        <retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 13:58:45</sys_created_on>
+        <sys_id>1721a55c975ed51081dd33271153af17</sys_id>
+        <sys_name>x_snc_google_map.Google_Maps_API</sys_name>
+        <sys_package display_value="Google Map API" source="x_snc_google_map">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Map API">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_scope>
+        <sys_update_name>sys_alias_1721a55c975ed51081dd33271153af17</sys_update_name>
+        <type>connection</type>
+    </sys_alias>
+</record_update>

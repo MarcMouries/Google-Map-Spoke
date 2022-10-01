@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>get_address</internal_name>
+        <label_cache>[{"name":"{{step[feb1b56e-1189-4236-9129-4b635fb92c57].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[feb1b56e-1189-4236-9129-4b635fb92c57].api_key}}","label":"step➛Script step➛API Key","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Get Address</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-23 20:34:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>30cb45f29782911081dd33271153af18</sys_id>
+        <sys_name>Get Address</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Google Map API" source="x_snc_google_map">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Map API">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_30cb45f29782911081dd33271153af18</sys_update_name>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=30cb45f29782911081dd33271153af18"/>
+    <sys_variable_value action="delete_multiple" query="document_key=30cb45f29782911081dd33271153af18"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>30cb45f29782911081dd33271153af18</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:45:22</sys_created_on>
+        <sys_id>57601158971ed51081dd33271153af87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 12:45:22</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">4b601158971ed51081dd33271153af79</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>30cb45f29782911081dd33271153af18</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:45:22</sys_created_on>
+        <sys_id>93601158971ed51081dd33271153af87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 12:45:22</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">0f601158971ed51081dd33271153af7e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_30cb45f29782911081dd33271153af18^id=30cb45f29782911081dd33271153af18"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=30cb45f29782911081dd33271153af18^sys_idNOT IN3a601158971ed51081dd33271153af0d,cf601158971ed51081dd33271153af24"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Address">30cb45f29782911081dd33271153af18</action>
+        <cid>feb1b56e-1189-4236-9129-4b635fb92c57</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:45:20</sys_created_on>
+        <sys_id>3a601158971ed51081dd33271153af0d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Google Map API">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_scope>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 12:45:21</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3a601158971ed51081dd33271153af0d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3a601158971ed51081dd33271153af0d</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:45:21</sys_created_on>
+        <sys_id>07601158971ed51081dd33271153af22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 12:45:21</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+  
+  outputs.api_key = gs.getProperty('x_snc_google_map.api.key');
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3a601158971ed51081dd33271153af0d</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:45:21</sys_created_on>
+        <sys_id>8b601158971ed51081dd33271153af21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 12:45:21</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_3a601158971ed51081dd33271153af0d^id=3a601158971ed51081dd33271153af0d"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=3a601158971ed51081dd33271153af0d"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=3a601158971ed51081dd33271153af0d"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=3a601158971ed51081dd33271153af0d^sys_idNOT IN3a601158971ed51081dd33271153af16"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=37017fe7-eb01-42da-a1f0-ded5bad4a90f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>api_key</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>API Key</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">3a601158971ed51081dd33271153af0d</model>
+        <model_id>3a601158971ed51081dd33271153af0d</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_3a601158971ed51081dd33271153af0d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:45:20</sys_created_on>
+        <sys_id>3a601158971ed51081dd33271153af16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Map API">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 12:45:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3a601158971ed51081dd33271153af0d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_3a601158971ed51081dd33271153af0d^sys_idNOT IN8b601158971ed51081dd33271153af1c"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>api_key</element>
+        <help/>
+        <hint/>
+        <label>API Key</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_3a601158971ed51081dd33271153af0d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:45:21</sys_created_on>
+        <sys_id>8b601158971ed51081dd33271153af1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Google Map API" source="x_snc_google_map">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Map API">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 12:45:21</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Address">30cb45f29782911081dd33271153af18</action>
+        <cid>c8aed69b-47bc-49b2-a3bd-7f5bd03f6595</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:45:21</sys_created_on>
+        <sys_id>cf601158971ed51081dd33271153af24</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Google Map API">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_scope>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 13:02:22</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cf601158971ed51081dd33271153af24"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cf601158971ed51081dd33271153af24</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:45:21</sys_created_on>
+        <sys_id>0b601158971ed51081dd33271153af75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 12:45:21</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cf601158971ed51081dd33271153af24</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:45:21</sys_created_on>
+        <sys_id>0f601158971ed51081dd33271153af74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 12:45:21</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cf601158971ed51081dd33271153af24</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:50:57</sys_created_on>
+        <sys_id>41b19198971ed51081dd33271153af71</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 13:02:22</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type﻿","value":"text/plain"}]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cf601158971ed51081dd33271153af24</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:45:21</sys_created_on>
+        <sys_id>47601158971ed51081dd33271153af75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 12:45:21</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cf601158971ed51081dd33271153af24</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:45:21</sys_created_on>
+        <sys_id>4b601158971ed51081dd33271153af74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 12:45:21</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cf601158971ed51081dd33271153af24</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:45:21</sys_created_on>
+        <sys_id>83601158971ed51081dd33271153af75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 12:45:21</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cf601158971ed51081dd33271153af24</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:45:21</sys_created_on>
+        <sys_id>87601158971ed51081dd33271153af74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 12:45:21</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cf601158971ed51081dd33271153af24</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:45:21</sys_created_on>
+        <sys_id>c3601158971ed51081dd33271153af74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 12:45:21</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cf601158971ed51081dd33271153af24</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:45:21</sys_created_on>
+        <sys_id>cf601158971ed51081dd33271153af74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 12:45:21</sys_updated_on>
+        <value>https://maps.googleapis.com/maps/api/place/nearbysearch/json</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=cf601158971ed51081dd33271153af24"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>cf601158971ed51081dd33271153af24</id>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:45:21</sys_created_on>
+        <sys_id>cb601158971ed51081dd33271153af73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 12:45:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>cf601158971ed51081dd33271153af24</id>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:45:21</sys_created_on>
+        <sys_id>0b601158971ed51081dd33271153af73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 12:45:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>cf601158971ed51081dd33271153af24</id>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:45:21</sys_created_on>
+        <sys_id>47601158971ed51081dd33271153af73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 12:45:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>cf601158971ed51081dd33271153af24</id>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:45:21</sys_created_on>
+        <sys_id>83601158971ed51081dd33271153af73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 12:45:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_timeout</field>
+        <id>cf601158971ed51081dd33271153af24</id>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:45:21</sys_created_on>
+        <sys_id>43601158971ed51081dd33271153af74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 12:45:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>cf601158971ed51081dd33271153af24</id>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:50:57</sys_created_on>
+        <sys_id>cdb19198971ed51081dd33271153af70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 12:50:57</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_headers</field>
+        <id>cf601158971ed51081dd33271153af24</id>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:45:21</sys_created_on>
+        <sys_id>0f601158971ed51081dd33271153af72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 12:45:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_query_params</field>
+        <id>cf601158971ed51081dd33271153af24</id>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:45:21</sys_created_on>
+        <sys_id>cf601158971ed51081dd33271153af72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 12:45:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>cf601158971ed51081dd33271153af24</id>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:45:21</sys_created_on>
+        <sys_id>8f601158971ed51081dd33271153af73</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 12:58:44</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"key﻿","value":"{{step[feb1b56e-1189-4236-9129-4b635fb92c57].api_key}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"radius﻿","value":"1500﻿","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"type﻿","value":"police﻿","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"location﻿","value":"-33.8670522,151.1957362","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=cf601158971ed51081dd33271153af24"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=cf601158971ed51081dd33271153af24"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cf601158971ed51081dd33271153af24"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_cf601158971ed51081dd33271153af24"/>
+    <sys_hub_action_input action="delete_multiple" query="model=30cb45f29782911081dd33271153af18"/>
+    <sys_hub_action_output action="delete_multiple" query="model=30cb45f29782911081dd33271153af18^sys_idNOT IN0f601158971ed51081dd33271153af7e,4b601158971ed51081dd33271153af79"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=3b687694-a5f8-4e8c-b1a9-d8445c0f1d9d,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get Address">30cb45f29782911081dd33271153af18</model>
+        <model_id>30cb45f29782911081dd33271153af18</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_30cb45f29782911081dd33271153af18</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:45:21</sys_created_on>
+        <sys_id>0f601158971ed51081dd33271153af7e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Map API">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 12:45:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0f601158971ed51081dd33271153af7e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0f601158971ed51081dd33271153af7e"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=bfda6f49-cc22-45ae-8002-650f5720cb7d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Address">30cb45f29782911081dd33271153af18</model>
+        <model_id>30cb45f29782911081dd33271153af18</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_30cb45f29782911081dd33271153af18</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:45:21</sys_created_on>
+        <sys_id>4b601158971ed51081dd33271153af79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Google Map API">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 12:45:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4b601158971ed51081dd33271153af79"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4b601158971ed51081dd33271153af79"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=30cb45f29782911081dd33271153af18"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=30cb45f29782911081dd33271153af18^sys_idNOT INc14c0df29782911081dd33271153af24"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Get Address">30cb45f29782911081dd33271153af18</action_type_id>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-23 20:36:18</sys_created_on>
+        <sys_id>c14c0df29782911081dd33271153af24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-23 20:36:18</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=c14c0df29782911081dd33271153af24"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_30cb45f29782911081dd33271153af18"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_30cb45f29782911081dd33271153af18"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_30cb45f29782911081dd33271153af18^sys_idNOT IN4f601158971ed51081dd33271153af7d,d3601158971ed51081dd33271153af84"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_30cb45f29782911081dd33271153af18</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:45:21</sys_created_on>
+        <sys_id>4f601158971ed51081dd33271153af7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Google Map API" source="x_snc_google_map">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Map API">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 12:45:21</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_30cb45f29782911081dd33271153af18</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Michael.Slabodnick</sys_created_by>
+        <sys_created_on>2022-09-28 12:45:22</sys_created_on>
+        <sys_id>d3601158971ed51081dd33271153af84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Google Map API" source="x_snc_google_map">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Google Map API">3e76cc4a1b3b4510ce2b6579b04bcb19</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Michael.Slabodnick</sys_updated_by>
+        <sys_updated_on>2022-09-28 12:45:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_30cb45f29782911081dd33271153af18"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=30cb45f29782911081dd33271153af18"/>
+</record_update>
