@@ -3,7 +3,7 @@
         <choices/>
         <description>API Key used for Google Map Integrations</description>
         <ignore_cache>true</ignore_cache>
-        <is_private>false</is_private>
+        <is_private>true</is_private>
         <name>x_snc_google_map.api.key</name>
         <read_roles/>
         <suffix>api.key</suffix>
